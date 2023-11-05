@@ -4,12 +4,12 @@ import { useEffect, useState } from "react";
 
 export default function Page() { 
     const slides = [
-      {path: "mexico.png"},
-      {path: "buenos.jpg"},
-      {path: "napoli.png"},
-      {path: "madrid.png"},
-      {path: "montevideo.png"},
-      {path: "muruga.png"},
+      {path: "../taqueros/2.jpg"},
+      {path: "../sol_azul/1.jpg"},
+      {path: "../bella_vita/1.jpg"},
+      {path: "../madrid/1.jpg"},
+      {path: "../montevideo/1.jpg"},
+      {path: "../los_espositos/1.jpg"},
     ];
     
     
@@ -35,7 +35,6 @@ export default function Page() {
       <Link href="#">
         <div style={{backgroundImage: `url(${slides[slideIndex].path})`}} className="bg-center bg-contain bg-no-repeat w-5/6 max-h-screen h-full object-contain mx-auto"></div>
       </Link>
-      <div></div>
     </div>
   ) 
 }
