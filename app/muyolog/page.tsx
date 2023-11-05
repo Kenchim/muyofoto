@@ -22,7 +22,7 @@ export default function Muyolog() {
             <p className="mt-10 mb-4 font-bold">Works</p>
             <p className="hover:text-gray-500"><Link href="muyolog/palette">- Palette of Madrid</Link></p>
             <p className="hover:text-gray-500"><Link href="muyolog/treasureddays">- Treasured Days</Link></p>
-            <p className="hover:text-gray-500"><Link href="muyolog/espositos">- Los Espocitos</Link></p>
+            <p className="hover:text-gray-500"><Link href="muyolog/espositos">- Los Espositos</Link></p>
             </div>
         </div>
 }
