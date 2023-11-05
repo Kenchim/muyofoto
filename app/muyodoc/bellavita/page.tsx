@@ -45,7 +45,7 @@ export default function Bellavita() {
                 of Hiroh Kikai, and upon researching, I found out that he passed away at "3:33 am." This must be 
                 a sign of the number 3 guiding me. So, from his masterpiece "王たちの肖像 (Portraits of Kings)", 
                 I translated the Latin words, "Ecce Homo" (Behold the man), from his book to Italian and borrowed 
-                it for this inside cover.'
+                it for this inside cover (subtitle).'
             />
             <FotoCap 
                 url="../bella_vita/10.jpg"
