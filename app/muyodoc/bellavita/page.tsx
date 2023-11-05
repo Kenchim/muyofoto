@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Bellavita() { 
     return (
         <div className="text-center w-5/6 md:w-3/4 mx-auto tracking-wider max-w-[720px]">
-            <Title title="La Bella Vita" place="Napoli, Italia" />
+            <Title title="La Bella Vita - ECCO L'UOMO" place="Napoli, Italia" />
             <div className="leading-8 mt-4 md:mt-8 pb-24">
             <FotoCap 
                 url="../bella_vita/1.jpg"
