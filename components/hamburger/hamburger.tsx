@@ -28,7 +28,7 @@ const Hamburger = () => {
                 <li className="font-bold hover:text-gray-500 leading-6"><Link href="/muyolog">MUYO LOG</Link></li>
                 <li className="text-xs leading-6 hover:text-gray-500"><Link href="/muyolog/palette">- Palette of Madrid</Link></li>
                 <li className="text-xs leading-6 hover:text-gray-500"><Link href="/muyolog/treasureddays">- Treasured Days</Link></li>
-                <li className="text-xs leading-6 hover:text-gray-500"><Link href="/muyolog/espositos">- Los Espositos</Link></li>
+                <li className="text-xs leading-6 hover:text-gray-500"><Link href="/muyolog/espositos">- La MURGA!!</Link></li>
               </ul>
               <p className="pt-4 font-bold hover:text-gray-500" onClick={toggleMenu}><Link href="/about">ABOUT</Link></p>
             </div>
