@@ -10,6 +10,12 @@ export default function Page() {
       {path: "../madrid/1.jpg"},
       {path: "../montevideo/1.jpg"},
       {path: "../los_espositos/1.jpg"},
+      {path: "../top_horizontal/1.jpg"},
+      {path: "../top_horizontal/2.jpg"},
+      {path: "../top_horizontal/3.jpg"},
+      {path: "../top_horizontal/4.jpg"},
+      {path: "../top_horizontal/5.jpg"},
+      {path: "../top_horizontal/6.jpg"},
     ];
     const slidesVertical = [
       {path: "../top_vertical/1.jpg"},
@@ -18,6 +24,12 @@ export default function Page() {
       {path: "../top_vertical/4.jpg"},
       {path: "../top_vertical/5.jpg"},
       {path: "../top_vertical/6.jpg"},
+      {path: "../top_vertical/7.jpg"},
+      {path: "../top_vertical/8.jpg"},
+      {path: "../top_vertical/9.jpg"},
+      {path: "../top_vertical/10.jpg"},
+      {path: "../top_vertical/11.jpg"},
+      {path: "../top_vertical/12.jpg"},
     ];
     
     
@@ -26,7 +38,7 @@ export default function Page() {
     useEffect(() => {
       let newIndex = 0;
       setInterval(() => {
-        if(newIndex <= 4){
+        if(newIndex <= 10){
           newIndex = newIndex + 1;
           setSlideIndex(newIndex)
           console.log(newIndex)
