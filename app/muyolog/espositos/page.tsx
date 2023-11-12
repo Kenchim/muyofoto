@@ -63,8 +63,9 @@ export default function Espositos() {
                 caption=""
             />
             <p className="underline hover:text-gray-500 inline-block text-xs">
-                    <Link href="/about">If you are interested in this book, please contact us.</Link>
-            </p>
+                <Link href="https://www.dropbox.com/scl/fi/9oxdsmnbnep6r8tknkpf2/La_MURGA-_muyofoto.pdf?rlkey=6sldd834nw9t9d28b5umjjbsp&dl=0"
+                download="https://www.dropbox.com/scl/fi/9oxdsmnbnep6r8tknkpf2/La_MURGA-_muyofoto.pdf?rlkey=6sldd834nw9t9d28b5umjjbsp&dl=0">
+                Download this book (pdf file)</Link></p>
             </div>
         </div>
     )

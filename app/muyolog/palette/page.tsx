@@ -53,8 +53,8 @@ export default function Palette() {
                 caption=""
             />
             <p className="underline hover:text-gray-500 inline-block text-xs">
-                <Link href="https://www.dropbox.com/scl/fi/mauw3aqlsn253b7wc5itk/palette_of_Madrid.pdf?rlkey=oori3ten1k1gmzyzbclqcx6ye&dl=0" 
-                download="https://www.dropbox.com/scl/fi/mauw3aqlsn253b7wc5itk/palette_of_Madrid.pdf?rlkey=oori3ten1k1gmzyzbclqcx6ye&dl=0">
+                <Link href="https://www.dropbox.com/scl/fi/mauw3aqlsn253b7wc5itk/palette_of_Madrid_muyofoto.pdf?rlkey=oori3ten1k1gmzyzbclqcx6ye&dl=0" 
+                download="https://www.dropbox.com/scl/fi/mauw3aqlsn253b7wc5itk/palette_of_Madrid_muyofoto.pdf?rlkey=oori3ten1k1gmzyzbclqcx6ye&dl=0">
                 Download this book (pdf file)</Link></p>
             </div>
         </div>

@@ -50,8 +50,8 @@ export default function Treasureddays() {
                 caption=""
             />
             <p className="underline hover:text-gray-500 inline-block text-xs">
-                <Link href="https://www.dropbox.com/scl/fi/qww0leu45rvkmw5ml8r2m/Treasured_Days.pdf?rlkey=b68g95mdcp49ei2c226i7apd1&dl=0"
-                download="https://www.dropbox.com/scl/fi/qww0leu45rvkmw5ml8r2m/Treasured_Days.pdf?rlkey=b68g95mdcp49ei2c226i7apd1&dl=0">
+                <Link href="https://www.dropbox.com/scl/fi/qww0leu45rvkmw5ml8r2m/Treasured_Days_muyofoto.pdf?rlkey=b68g95mdcp49ei2c226i7apd1&dl=0"
+                download="https://www.dropbox.com/scl/fi/qww0leu45rvkmw5ml8r2m/Treasured_Days_muyofoto.pdf?rlkey=b68g95mdcp49ei2c226i7apd1&dl=0">
                 Download this book (pdf file)</Link></p>
             </div>
         </div>
