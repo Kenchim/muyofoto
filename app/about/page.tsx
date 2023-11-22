@@ -1,3 +1,5 @@
+import FotoCap from "../component/foto_caption";
+
 export default function About() { 
     return (
     <div className="text-center w-5/6 md:w-3/4 lg:w-1/2 mx-auto tracking-wider max-w-[720px]">
@@ -10,7 +12,13 @@ export default function About() {
             <p className="mt-4 md:mt-8">KENTO NOBUTA</p>
             </div>
             <h2 className="font-bold mt-16 text-xl md:text-2xl tracking-wider">CONTACT</h2>
-            <p className="mt-4 md:mt-8">kent@muyo.jp</p>
+            <p className="mt-4 md:mt-8 mb-16">kent@muyo.jp</p>
+            <FotoCap
+            url="../now.jpg"
+            alt="Ha noi Vietnam"
+            caption="Now in Ha noi, Vietnam (Nov 22nd 2023)" 
+            />
+            <p className="pb-20"></p>
     </div>
     )
 }
