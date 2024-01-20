@@ -16,7 +16,7 @@ export default function About() {
             <FotoCap
             url="../now.jpg"
             alt="Ha noi Vietnam"
-            caption="Shooting in Ho Chi Minh City, Việt Nam (January 2024)" 
+            caption="Shooting in China town of Bangkok, Thailand (January 2024)" 
             />
             <p className="pb-20"></p>
     </div>
