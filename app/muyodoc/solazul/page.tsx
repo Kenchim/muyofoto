@@ -80,7 +80,8 @@ export default function Solazul() {
             />
 
             <p className="underline hover:text-gray-500 inline-block text-xs">
-                    <Link href="/about">If you are interested in this book, please contact us.</Link>
+                    <Link href="/about">If you are interested in this book, please contact us via email. 
+                    We are happy to show the book!(Heavy PDF file)</Link>
             </p>
             </div>
         </div>
