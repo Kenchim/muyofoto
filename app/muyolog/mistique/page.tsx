@@ -13,7 +13,7 @@ export default function Mistique() {
                 caption=""
             />
             <p>'Two years ago...'</p>
-            <p className="mb-4">She said, shaking her head.</p>
+            <p className="mb-4">A madame said, shaking her head.</p>
             <p>Just at that moment when someone placed two stones there,</p>
             <p className="mb-4">Our journey began in a place far away.</p>
             <p>And from the midst of the fork road,</p>
