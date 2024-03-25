@@ -75,7 +75,7 @@ export default function ThoughtsMist() {
                 only a few people, including myself, became like a single organism within a small space in Hanoi. 
                 Perhaps, at that moment, I was a part of Hanoi. Now, stepping out of the mist, I recall that time. 
                 Their postures strangely linger in my mind. The history of ancient China and contemporary France's dominance. 
-                The intersection of Zhuangzi's “and” Deleuze's spatiotemporal dimensions in Hanoi seems too coincidental. 
+                The intersection of Zhuangzi's 'and' Deleuze's spatiotemporal dimensions in Hanoi seems too coincidental. 
                 If that intersection is the seed, it surely hints at the germination of something unexpected. 
                 Something that will extend in unforeseen directions. My time in Hanoi might shape my future."
             />

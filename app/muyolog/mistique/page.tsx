@@ -20,6 +20,7 @@ export default function Mistique() {
             <p className="mb-4">Now, the stones we confront ask.</p>
             <p>Let's follow the path we believe in.</p>
             <p className="mb-4">If it fails, returning here wouldn't be so bad after all.</p>
+            <p className="text-xs mb-4">from Vauban - The district on top of the hill</p>
             <FotoCap 
                 url="../marseille/2.jpg"
                 alt="Pigeon"
