@@ -15,7 +15,7 @@ export default function Bellavita() {
             />
             <p>Queste sono le mie parole magiche.</p>
             <p>Sono riuscito a conoscere meglio Napoli perché non parlo italiano.</p>
-            <p className="text-xs mt-4">“Posso fare ritratto?”(May I take your portrait?)</p>
+            <p className="text-xs mt-4">"Posso fare ritratto?"(May I take your portrait?)</p>
             <p className="text-xs mt-2">These are my magic words. </p>
             <p className="text-xs mt-2">I was able to get to know Naples better precisely because I didn't speak italian.</p>
             <FotoCap 
