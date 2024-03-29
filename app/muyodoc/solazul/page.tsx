@@ -23,11 +23,10 @@ export default function Solazul() {
                 that the city is exactly like this: the overwhelming brilliance of sunlight juxtaposed with the shadows 
                 on the other side. Behind the skyscrapers of this metropolis, there are construction workers who live 
                 day by day. Tango attracts many tourists, but for the locals, it remains an unattainable realm because 
-                of the exorbitant admission fee. 1,000 yen turned into 3,500 Argentine pesos now. The sadness and 
-                melancholy atmosphere of the city I believe, stems from the reality that there is nothing they can do. 
-                However, after spending about three months in the city, I began to feel that this was not the only 
-                attraction of the city. It was during this time that I began to view Obelisco as the emblematic 
-                representation of Buenos Aires."
+                of the exorbitant admission fee. The sadness and melancholy atmosphere of the city I believe, stems from 
+                the reality that there is nothing they can do. However, after spending about three months in the city, 
+                I began to feel that this was not the only attraction of the city. It was during this time that I began 
+                to view Obelisco as the emblematic representation of Buenos Aires."
             />
             <FotoCap 
                 url="../sol_azul/3.jpg"
