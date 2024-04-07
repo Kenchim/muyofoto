@@ -10,11 +10,11 @@ export default function News() {
             <FotoCap
             url="../expo_osskaffe.jpg"
             alt="first solo exhibition at ÖSS Kaffe Madrid"
-            caption="Held the first solo exhibition at ÖSS Kaffe Madrid. The history of ÖSS Kaffe begins in 
+            caption='Held the first solo exhibition at ÖSS Kaffe Madrid. The history of ÖSS Kaffe begins in 
             Buenos Aires. I met them in Buenos Aires and later reunited in Madrid. Through this connection, 
-            we showcased the project 'PORTEÑOS MIRAN AL SOL AZUL.' which was shot in Buenos Aires." 
+            we showcased the project "PORTEÑOS MIRAN AL SOL AZUL." which was shot in Buenos Aires.' 
             />
-            <img src="../expo_explanation_osskaffe.jpg" className="mx-auto mt-10 w-11/12 sm:w-5/6 md:w-2/3 shadow"/>
+            <img src="../expo_explanation_osskaffe.jpg" className="mx-auto mt-10 w-11/12 sm:w-5/6 md:w-2/3 shadow-xl"/>
             <p className="mt-4"><a className="underline" href="https://maps.app.goo.gl/35Cy3ifSKWNovBTe6">📍ÖSS Kaffe Madrid</a></p>
             <p className="pb-20"></p>
             </div>
