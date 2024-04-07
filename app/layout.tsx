@@ -46,6 +46,7 @@ export default function RootLayout({
                 <li className="text-sm hover:text-gray-500 leading-6"><Link href="/muyolog/mistique">- Mistique Vauban</Link></li>
               </ul>
               <p className="pt-4 font-bold hover:text-gray-500"><Link href="/about">ABOUT</Link></p>
+              <p className="pt-4 font-bold hover:text-gray-500"><Link href="/news">NEWS</Link></p>
             </div>
           </div>
           <div className="w-full md:w-5/6 md:ml-[16.6%]">

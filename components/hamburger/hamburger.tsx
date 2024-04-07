@@ -18,7 +18,7 @@ const Hamburger = () => {
           </button>
           <nav className={isOpen ? "block" : "hidden"}>
           <div className="fixed inset-x-0 bottom-0 px-6 shadow-lg w-max bg-white h-full z-[0]">
-              <ul className="mt-[200%]" onClick={toggleMenu}>
+              <ul className="mt-[160%]" onClick={toggleMenu}>
                 <li className="font-bold hover:text-gray-500 leading-6"><Link href="/muyodoc">MUYO DOC</Link></li>
                 <li className="text-xs hover:text-gray-500 leading-6"><Link href="/muyodoc/taqueros">- Los Taqueros</Link></li>
                 <li className="text-xs hover:text-gray-500 leading-6"><Link href="/muyodoc/solazul">- PORTEÑOS MIRAN AL SOL AZUL</Link></li>
@@ -33,6 +33,7 @@ const Hamburger = () => {
                 <li className="text-xs leading-6 hover:text-gray-500"><Link href="/muyolog/mistique">- Mistique Vauban</Link></li>
               </ul>
               <p className="pt-4 font-bold hover:text-gray-500" onClick={toggleMenu}><Link href="/about">ABOUT</Link></p>
+              <p className="pt-4 font-bold hover:text-gray-500" onClick={toggleMenu}><Link href="/news">NEWS</Link></p>
             </div>
           </nav>
         </div>
