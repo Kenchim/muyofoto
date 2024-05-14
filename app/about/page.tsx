@@ -15,8 +15,8 @@ export default function About() {
             <p className="mt-4 md:mt-8 mb-16">kent@muyo.jp</p>
             <FotoCap
             url="../now.jpg"
-            alt="Madrid Spain"
-            caption="Shooting in Madrid, Spain (April 2024)" 
+            alt="Japan"
+            caption="Shooting in Japan (May 2024)" 
             />
             <p className="pb-20"></p>
     </div>
