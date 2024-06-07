@@ -1,3 +1,4 @@
+import Link from "next/link";
 import FotoCap from "../component/foto_caption";
 
 export default function About() { 
@@ -10,6 +11,10 @@ export default function About() {
                 "PORTEÑOS MIRAN AL SOL AZUL." in Buenos Aires and "La Bella Vita" in Naples. 
             </p>
             <p className="mt-4 md:mt-8">KENTO NOBUTA</p>
+            <p className="underline hover:text-gray-500 inline-block text-xs">
+                <Link href="https://drive.google.com/file/d/1Ms2H0dFfK8yntHkjzbAyRD3cQjJW5MTQ/view?usp=sharing"
+                download="https://drive.google.com/file/d/1Ms2H0dFfK8yntHkjzbAyRD3cQjJW5MTQ/view?usp=sharing">
+                Download portfolio (pdf file)</Link></p>
             </div>
             <h2 className="font-bold mt-16 text-xl md:text-2xl tracking-wider">CONTACT</h2>
             <p className="mt-4 md:mt-8 mb-16">kent@muyo.jp</p>
