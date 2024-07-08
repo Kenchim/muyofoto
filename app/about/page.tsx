@@ -12,8 +12,8 @@ export default function About() {
             </p>
             <p className="mt-4 md:mt-8">KENTO NOBUTA</p>
             <p className="underline hover:text-gray-500 inline-block text-xs">
-                <Link href="https://drive.google.com/file/d/1Ms2H0dFfK8yntHkjzbAyRD3cQjJW5MTQ/view?usp=sharing"
-                download="https://drive.google.com/file/d/1Ms2H0dFfK8yntHkjzbAyRD3cQjJW5MTQ/view?usp=sharing">
+                <Link href="https://drive.google.com/file/d/1V4Jjyx6qzAQ-TjiILrvxxY3ha2TwP7By/view?usp=sharing"
+                download="https://drive.google.com/file/d/1V4Jjyx6qzAQ-TjiILrvxxY3ha2TwP7By/view?usp=sharing">
                 Download portfolio (pdf file)</Link></p>
             </div>
             <h2 className="font-bold mt-16 text-xl md:text-2xl tracking-wider">CONTACT</h2>
@@ -21,7 +21,7 @@ export default function About() {
             <FotoCap
             url="../now.jpg"
             alt="Japan"
-            caption="Shooting in Japan (June 2024)" 
+            caption="Shooting in Japan (July 2024)" 
             />
             <p className="pb-20"></p>
     </div>
