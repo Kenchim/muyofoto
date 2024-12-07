@@ -21,7 +21,7 @@ export default function About() {
             <FotoCap
             url="../now.jpg"
             alt="Japan"
-            caption="Shooting in Japan (November 2024)" 
+            caption="Shooting in Japan (December 2024)" 
             />
             <p className="pb-20"></p>
     </div>
