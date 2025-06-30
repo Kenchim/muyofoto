@@ -52,12 +52,38 @@ export default function Page() {
 
     return (
       <>
-    <div className="hidden mv:block max-w-[1440px] w-full max-h-screen h-full relative py-32 md:py-10 px-0 md:px-4 z-[-2]">
+      <div className="flex items-center justify-center min-h-screen px-4 max-w-7xl">
+      <div className="flex flex-col items-center text-center px-4 py-8 md:w-2/3 w-full">
+      <h1 className="text-xl md:text-2xl font-light xl:mb-4 mb-0 font-serif tracking-widest">『運ぶ人』<a className="md:ml-2 xl:ml-4 tracking-widest">写真展</a></h1>
+      <div className="w-full max-w-3xl mt-6 mb-8 z-[-2]">
+        <img
+          src="../hakobuhito/1.jpg" // 実際の画像パスに変更してください
+          alt="運ぶ人"
+          className="w-full object-cover grayscale mv:block hidden"
+        />
+        <img
+          src="../hakobuhito/2.jpg" // 実際の画像パスに変更してください
+          alt="運ぶ人"
+          className="w-full object-cover grayscale mv:hidden"
+        />
+      </div>
+
+      <p className="text-xs xl:text-base mb-2 font-serif tracking-widest ml-auto">
+        2025.7.8(Tue) - 7.27(Sun) at Horikawa Gallery, Nagoya
+      </p>
+      <div className="text-right mt-2 tracking-wide ml-auto">
+      <a href="/exhibition" className="text-xs xl:text-base underline hover:opacity-80 font-serif ">
+        more info &gt;
+      </a>
+      </div>
+    </div>
+    </div>
+    {/* <div className="hidden mv:block max-w-[1440px] w-full max-h-screen h-full relative py-32 md:py-10 px-0 md:px-4 z-[-2]">
         <div style={{backgroundImage: `url(${slides[slideIndex].path})`}} className="bg-center bg-contain bg-no-repeat w-5/6 max-h-screen h-full object-contain mx-auto"></div>
     </div>
     <div className="block mv:hidden max-w-[1440px] w-full max-h-screen h-full relative py-40 md:py-10 px-0 md:px-4 z-[-2]">
         <div style={{backgroundImage: `url(${slidesVertical[slideIndex].path})`}} className="bg-center bg-contain bg-no-repeat w-5/6 max-h-screen h-full object-contain mx-auto"></div>
-    </div>
+    </div> */}
     </>
   ) 
 }
