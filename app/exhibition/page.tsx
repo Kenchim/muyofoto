@@ -53,6 +53,22 @@ export default function Taqueros() {
             <p className="underline hover:text-gray-500 inline-block text-xs">
                     <Link href="/about">If you are interested in this book, please contact us.</Link>
             </p>
+
+            <div className="text-center w-5/6 mx-auto tracking-wider max-w-[720px]">
+            <div className="leading-8 mt-4 md:mt-8">
+            <div className="mt-14 mb-4">------- Kento Nobuta  -------</div>
+            <p>カメラを持ったフラヌール（Flâneur）。都市の中を散歩し、観察し、撮影する。
+                これまでメキシコシティ、ブエノスアイレス、ナポリ、ハノイなど各都市で作品制作を行う。
+                2024年4月にはスペイン・マドリードのÖss Kaffeにて個展を開催。
+                2025年7月には名古屋市の堀川ギャラリーにて、本作品『運ぶ人』の展示を行う。
+            </p>
+            <p className="underline hover:text-gray-500 inline-block text-xs mt-4">
+                <Link href="https://drive.google.com/file/d/1V4Jjyx6qzAQ-TjiILrvxxY3ha2TwP7By/view?usp=sharing"
+                download="https://drive.google.com/file/d/1V4Jjyx6qzAQ-TjiILrvxxY3ha2TwP7By/view?usp=sharing">
+                Download portfolio (pdf file)</Link></p>
+            </div>
+            <p className="pb-20"></p>
+    </div>
             </div>
         </div>
     )
