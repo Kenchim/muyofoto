@@ -45,6 +45,11 @@ export default function Taqueros() {
                 alt="運ぶ人"
                 caption=""
                 />
+            <FotoCap 
+                url="../hakobuhito/10.jpg"
+                alt="運ぶ人"
+                caption=""
+                />
             <p className="underline hover:text-gray-500 inline-block text-xs">
                     <Link href="/about">If you are interested in this book, please contact us.</Link>
             </p>
