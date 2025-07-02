@@ -34,7 +34,7 @@ export default function Taqueros() {
             alt="運ぶ人"
             caption=""
             />
-            <div className="mt-14 -mb-4">------- 写真展のご案内 -------</div>
+            <div className="mt-14 -mb-4">------- 写真展のご案内(DM) -------</div>
             <FotoCap 
                 url="../hakobuhito/8.jpg"
                 alt="運ぶ人"
@@ -50,9 +50,6 @@ export default function Taqueros() {
                 alt="運ぶ人"
                 caption=""
                 />
-            <p className="underline hover:text-gray-500 inline-block text-xs">
-                    <Link href="/about">If you are interested in this book, please contact us.</Link>
-            </p>
 
             <div className="text-center w-5/6 mx-auto tracking-wider max-w-[720px]">
             <div className="leading-8 mt-4 md:mt-8">
