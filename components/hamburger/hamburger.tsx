@@ -34,6 +34,7 @@ const Hamburger = () => {
               </ul>
               <p className="pt-4 font-bold hover:text-gray-500" onClick={toggleMenu}><Link href="/about">ABOUT</Link></p>
               <p className="pt-4 font-bold hover:text-gray-500" onClick={toggleMenu}><Link href="/news">NEWS</Link></p>
+              <p className="pt-4 font-bold hover:text-gray-500" onClick={toggleMenu}><Link href="/legal">Legal Information</Link></p>
             </div>
           </nav>
         </div>

@@ -47,6 +47,7 @@ export default function RootLayout({
               </ul>
               <p className="pt-4 font-bold hover:text-gray-500"><Link href="/about">ABOUT</Link></p>
               <p className="pt-4 font-bold hover:text-gray-500"><Link href="/news">NEWS</Link></p>
+              <p className="pt-4 font-bold hover:text-gray-500"><Link href="/legal">Legal Information</Link></p>
             </div>
           </div>
           <div className="w-full md:w-5/6 md:ml-[16.6%]">
