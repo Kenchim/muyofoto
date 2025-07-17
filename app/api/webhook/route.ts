@@ -8,8 +8,8 @@ const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET!;
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     host: 'smtp.gmail.com',
-    port: 587,       
-    secure: false,
+    port: 465,       
+    secure: true,
     auth: {
         user: process.env.GMAIL_USER,
         pass: process.env.GMAIL_PASS,
@@ -190,6 +190,7 @@ async function sendCustomerConfirmationEmail(session: Stripe.Checkout.Session) {
         </div>
     `
     });
+    console.log('✅ メール送信成功');
     
     await sendCustomerConfirmationEmail(session);
         
