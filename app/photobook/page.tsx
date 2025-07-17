@@ -39,8 +39,8 @@ return (
             <img src="../cover.png" className="mx-auto mt-10 w-1/2"/>
             <p className="mt-4 md:mt-8"></p>
         </div>
-    <p className="my-4">価格: ¥3,000</p>
-    <p className="mt-4 mb-10">（税込/送料込: レターパックで郵送いたします）</p>
+    <p className="my-4">価格: ¥2,500 (税込)</p>
+    <p className="mt-4 mb-10">（送料: 500円 レターパックで郵送いたします）</p>
     <label>
         冊数：
         <select className="mx-6 px-6 py-3 bg-white border font-semibold tracking-wide hover:bg-gray-100 transition" value={quantity} onChange={(e) => setQuantity(Number(e.target.value))}>
