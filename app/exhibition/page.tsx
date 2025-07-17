@@ -2,7 +2,7 @@ import FotoCap from "@/app/component/foto_caption";
 import Title from "@/app/component/title";
 import Link from "next/link";
 
-export default function Taqueros() { 
+export default function Exhibition() { 
     return (
         <div className="text-center w-5/6 md:w-3/4 mx-auto tracking-wider max-w-[720px] font-serif">
             <Title title="運ぶ人・the Carrier" place="Bangkok, Thailand" />

@@ -76,6 +76,11 @@ export default function Page() {
       <a href="/exhibition" className="text-xs xl:text-base underline hover:opacity-80 font-serif ">
         more info &gt;
       </a>
+      <p className="my-4">
+      <a href="/photobook" className="text-xs xl:text-base underline hover:opacity-80 font-serif ">
+        写真集販売ページ &gt;
+      </a>
+      </p>
       </div>
     </div>
     </div>
