@@ -26,7 +26,7 @@ export async function POST(request: Request) {
         ],
         line_items: [
             {
-            price: 'price_1Rm1uDEQicqwUzUiYMivSHbp', // Stripeで登録した価格IDに置き換える
+            price: 'price_1Rm24LEQicqwUzUiS1S9Nnsg', // Stripeで登録した価格IDに置き換える
             quantity,
             },
         ],

@@ -61,8 +61,7 @@ async function sendCustomerConfirmationEmail(session: Stripe.Checkout.Session) {
     ${customer?.address?.city ?? ''}
     ${customer?.address?.line1 ?? ''}
     
-    📖 ご注文冊数: ${(amount ?? 0) / 100}
-    💴 合計金額: ¥${(amount ?? 0) / 100}
+    💴 合計金額: ¥${(amount ?? 0) }
     
     商品の到着まで今しばらくお待ちください。
     
@@ -98,12 +97,8 @@ async function sendCustomerConfirmationEmail(session: Stripe.Checkout.Session) {
             </td>
         </tr>
         <tr>
-            <td style="padding: 4px 8px;"><strong>冊数:</strong></td>
-            <td style="padding: 4px 8px;">${(amount ?? 0) / 100} 冊</td>
-        </tr>
-        <tr>
             <td style="padding: 4px 8px;"><strong>合計金額:</strong></td>
-            <td style="padding: 4px 8px;">¥${(amount ?? 0) / 100}</td>
+            <td style="padding: 4px 8px;">¥${(amount ?? 0)}</td>
         </tr>
         </table>
 
@@ -139,8 +134,7 @@ async function sendCustomerConfirmationEmail(session: Stripe.Checkout.Session) {
         ${customer?.address?.state}
         ${customer?.address?.line1}
         ${customer?.address?.line2}
-        📖 冊数:${(amount ?? 0) / 100}
-        💴 合計金額: ¥${(amount ?? 0) / 100}
+        💴 合計金額: ¥${(amount ?? 0)}
 
         =========================
         `;
@@ -173,12 +167,8 @@ async function sendCustomerConfirmationEmail(session: Stripe.Checkout.Session) {
             </td>
             </tr>
             <tr>
-            <td style="padding: 4px 8px;"><strong>冊数:</strong></td>
-            <td style="padding: 4px 8px;">${(amount ?? 0) / 100} 冊</td>
-            </tr>
-            <tr>
             <td style="padding: 4px 8px;"><strong>合計金額:</strong></td>
-            <td style="padding: 4px 8px;">¥${(amount ?? 0) / 100}</td>
+            <td style="padding: 4px 8px;">¥${(amount ?? 0)}</td>
             </tr>
         </table>
 
