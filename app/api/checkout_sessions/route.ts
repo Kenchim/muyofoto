@@ -15,7 +15,7 @@ export async function POST(request: Request) {
         shipping_options: [
             {
             shipping_rate_data: {
-                display_name: '手渡し（送料 0円）',
+                display_name: '直接のお渡し（送料 0円）',
                 type: 'fixed_amount',
                 fixed_amount: { amount: 0, currency: 'jpy' },
             },
