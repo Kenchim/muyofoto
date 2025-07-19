@@ -36,7 +36,7 @@ return (
     <div className="text-center w-5/6 md:w-3/4 lg:w-1/2 mx-auto tracking-wider max-w-[720px] font-serif">
             <h1 className="font-bold md:mt-16 mt-32 text-xl md:text-2xl"><span className="text-base mr-4">写真集</span>『運ぶ人』</h1>
             <div>
-            <img src="../cover.png" className="mx-auto mt-10 w-1/2"/>
+            <img src="../cover.png" className="mx-auto mt-10 w-1/2 shadow-md"/>
             <p className="mt-4 md:mt-8"></p>
         </div>
     <p className="my-4">価格: ¥2,500 (税込)</p>
