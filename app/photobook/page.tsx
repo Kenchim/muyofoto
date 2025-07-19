@@ -40,16 +40,16 @@ return (
             <p className="mt-4 md:mt-8"></p>
         </div>
     <p className="my-4">価格: ¥2,500 (税込)</p>
-    <p className="mt-4 mb-10">（送料: 500円 レターパックで郵送いたします）</p>
+    <p className="text-xs md:text-sm mt-4 mb-10">（送料: 500円 レターパックで郵送いたします）</p>
     <label>
         冊数：
-        <select className="mx-6 px-6 py-3 bg-white border font-semibold tracking-wide hover:bg-gray-100 transition" value={quantity} onChange={(e) => setQuantity(Number(e.target.value))}>
+        <select className="mx-6 px-3 py-3 bg-white border font-semibold tracking-wide hover:bg-gray-100 transition" value={quantity} onChange={(e) => setQuantity(Number(e.target.value))}>
         {[1, 2, 3, 4, 5].map(n => (
             <option key={n} value={n}>{n}冊</option>
         ))}
         </select>
     </label>
-    <button className="px-6 py-3 bg-white border font-semibold tracking-wide hover:bg-gray-100 transition" onClick={handleCheckout} disabled={loading}>
+    <button className="px-3 py-3 bg-white border font-semibold tracking-wide hover:bg-gray-100 transition" onClick={handleCheckout} disabled={loading}>
         {loading ? '読み込み中…' : '購入する'}
     </button>
     </div>
