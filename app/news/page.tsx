@@ -5,6 +5,27 @@ export default function News() {
     return (
     <div className="text-center w-5/6 md:w-3/4 lg:w-1/2 mx-auto tracking-wider max-w-[720px]">
             <h1 className="font-bold mt-32 text-xl md:text-2xl">NEWS</h1>
+            
+            <div className="leading-8 mt-4 md:mt-8">
+            <p>--- July 8th - 27th, 2025 ---</p>
+            <FotoCap
+            url="../exhibition_horikawa.jpg"
+            alt="Solo exhibition at Horikawa Gallery, Nagoya"
+            caption='The former Kato Shokai Building, where this exhibition is held, is a historic structure 
+            that once served as the headquarters of a trading company which imported rice from Thailand during 
+            the 1918 Rice Riots, supporting the lives of local citizens. It was later used as the Thai Consulate. 
+            Starting from this historical context, the exhibition presents photographs of people transporting things 
+            in Bangkok’s Chinatown, the city’s logistics hub.
+
+            With recent concerns about rice supply in Japan, the exhibition focuses on the figure of the “carrier” 
+            to reconsider the relationships between society, cities, and people, connecting different times and places.
+
+' 
+            />
+            <img src="../ateliergray.jpeg" className="mx-auto mt-10 w-11/12 sm:w-5/6 md:w-2/3 shadow-xl"/>
+            <p className="pb-20"></p>
+            </div>
+            
             <div className="leading-8 mt-4 md:mt-8">
             <p>--- April 7th - 14th, 2024 ---</p>
             <FotoCap
