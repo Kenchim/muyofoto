@@ -55,7 +55,7 @@ export default function Page() {
       <div className="flex items-center justify-center min-h-screen px-4 max-w-7xl">
       <div className="flex flex-col items-center text-center px-4 py-8 md:w-2/3 w-full">
       <h1 className="text-xl md:text-2xl font-light xl:mb-4 mb-0 font-serif tracking-widest pt-28 mv:pt-0">『運ぶ人』<a className="md:ml-2 xl:ml-4 tracking-widest"></a></h1>
-      <p className="font-serif mt-2 xl:mt-0 text-sm">ALL YOU NEED IS ZINE@Staple Coffee 水戸<a className="underline" href="https://c7c.jp/zine-fan-2025/">@C7C Gallery Nagoya</a></p>
+      <p className="font-serif mt-2 xl:mt-0 text-sm">ALL YOU NEED IS ZINE<a className="underline" href="https://www.instagram.com/staplecoffee.transitfolks/">@Staple Coffee 水戸</a></p>
       <p className="font-serif mt-2 xl:mt-0 text-sm">9/23.Tue - 9/28.Sun</p>
 
       <div className="w-full max-w-3xl mt-6 mb-8 z-[-2]">
