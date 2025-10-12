@@ -55,16 +55,7 @@ export default function Page() {
       <div className="flex items-center justify-center min-h-screen px-4 max-w-7xl">
       <div className="flex flex-col items-center text-center px-4 py-8 md:w-2/3 w-full">
       <h1 className="text-xl md:text-2xl font-light xl:mb-4 mb-0 font-serif tracking-widest pt-28 mv:pt-0">『運ぶ人』<a className="md:ml-2 xl:ml-4 tracking-widest"></a></h1>
-      <p className="font-serif mt-2 xl:mt-0 text-sm">ALL YOU NEED IS ZINE<a className="underline" href="https://www.instagram.com/staplecoffee.transitfolks/">@Staple Coffee 水戸</a></p>
-      <p className="font-serif mt-2 xl:mt-0 text-sm">9/23.Tue - 9/28.Sun</p>
-
-      <div className="w-full max-w-3xl mt-6 mb-8 z-[-2]">
-        <img
-          src="../zinefan2025tokai.jpg" // 実際の画像パスに変更してください
-          alt="運ぶ人"
-          className="w-full object-cover grayscale"
-        />
-      </div>
+      <p className="text-xs xl:text-base mb-2 font-serif tracking-widest m-auto">Photography Exhibition and Book Release — August 2025</p>
       <div className="w-full max-w-3xl mt-6 mb-8 z-[-2]">
         <img
           src="../hakobuhito/1.jpg" // 実際の画像パスに変更してください
@@ -82,7 +73,7 @@ export default function Page() {
       </p>
       <div className="text-right mt-2 tracking-wide ml-auto">
       <a href="/exhibition" className="text-xs xl:text-base underline hover:opacity-80 font-serif ">
-        more info &gt;
+        more info about this book&gt;
       </a>
       <p className="my-4">
       <a href="/photobook" className="text-xs xl:text-base underline hover:opacity-80 font-serif ">
