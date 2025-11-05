@@ -37,6 +37,7 @@ export default function RootLayout({
                 <li className="text-sm hover:text-gray-500 leading-6"><Link href="/muyodoc/solazul">- PORTEÑOS MIRAN AL SOL AZUL.</Link></li>
                 <li className="text-sm hover:text-gray-500 leading-6"><Link href="/muyodoc/bellavita">- La Bella Vita</Link></li>
                 <li className="text-sm hover:text-gray-500 leading-6"><Link href="/muyodoc/thoughts_mist">- Thoughts in the Mist</Link></li>
+                <li className="text-sm hover:text-gray-500 leading-6"><Link href="/muyodoc/carrier">- the Carrier(Hakobu Hito)</Link></li>
               </ul>
               <ul className="pt-4">
                 <li className="font-bold hover:text-gray-500 leading-6"><Link href="/muyolog">MUYO LOG</Link></li>

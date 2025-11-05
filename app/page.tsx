@@ -54,33 +54,30 @@ export default function Page() {
       <>
       <div className="flex items-center justify-center min-h-screen px-4 max-w-7xl">
       <div className="flex flex-col items-center text-center px-4 py-8 md:w-2/3 w-full">
-      <h1 className="text-xl md:text-2xl font-light xl:mb-4 mb-0 font-serif tracking-widest pt-28 mv:pt-0">『運ぶ人』<a className="md:ml-2 xl:ml-4 tracking-widest"></a></h1>
-      <p className="text-xs xl:text-base mb-2 font-serif tracking-widest m-auto">Photography Exhibition and Book Release — August 2025</p>
+      <h1 className="text-xl md:text-2xl font-light xl:mb-4 mb-0 font-serif tracking-widest pt-28 mv:pt-0">Excited to Join AABF!<a className="md:ml-2 xl:ml-4 tracking-widest"></a></h1>
+      <p className="text-xs xl:text-base mb-2 font-serif tracking-widest m-auto">AICHI ART BOOK FAIR 2025</p>
       <div className="w-full max-w-3xl mt-6 mb-8 z-[-2]">
         <img
-          src="../hakobuhito/1.jpg" // 実際の画像パスに変更してください
-          alt="運ぶ人"
-          className="w-full object-cover grayscale mv:block hidden"
+          src="../aabf2025.png" // 実際の画像パスに変更してください
+          alt=""
+          className="w-full object-cover mv:block hidden"
         />
         <img
-          src="../hakobuhito/2.jpg" // 実際の画像パスに変更してください
+          src="../aabf2025.png" // 実際の画像パスに変更してください
           alt="運ぶ人"
-          className="w-full object-cover grayscale mv:hidden"
+          className="w-full object-cover mv:hidden"
         />
       </div>
-      <p className="text-xs xl:text-base mb-2 font-serif tracking-widest ml-auto text-left">
-        堀川ギャラリーにて開催した写真展、ご来場いただきありがとうございました。
+      <p className="text-xs xl:text-base mb-2 font-serif tracking-widest ml-auto text-right">
+      11.26 Wed. – 12.2 Tue., 2025<br />
+      10:00 – 20:00<br />
+      @NAGOYA MATSUZAKAYA, Organ Plaza, South Building 1F<br />
+      Admission Free
       </p>
       <div className="text-right mt-2 tracking-wide ml-auto">
-      <a href="/exhibition" className="text-xs xl:text-base underline hover:opacity-80 font-serif ">
-        more info about this book&gt;
+      <a href="https://aichiartbookfair.com/" className="text-xs xl:text-base underline hover:opacity-80 font-serif ">
+        https://aichiartbookfair.com/
       </a>
-      <p className="my-4">
-      <a href="/photobook" className="text-xs xl:text-base underline hover:opacity-80 font-serif ">
-        写真集販売ページ &gt;
-      </a>
-      </p>
-      
       </div>
     </div>
     </div>
