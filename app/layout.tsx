@@ -48,6 +48,10 @@ export default function RootLayout({
               </ul>
               <p className="pt-4 font-bold hover:text-gray-500"><Link href="/about">ABOUT</Link></p>
               <p className="pt-4 font-bold hover:text-gray-500"><Link href="/news">NEWS</Link></p>
+              <ul className="pt-4">
+                <li className="font-bold leading-6">SHOP</li>
+                <li className="text-sm hover:text-gray-500 leading-6"><Link href="/photobook">- the Carrier (Hakobu Hito)</Link></li>
+              </ul>
               <p className="pt-4 font-bold hover:text-gray-500"><Link href="/legal">Legal Information</Link></p>
             </div>
           </div>

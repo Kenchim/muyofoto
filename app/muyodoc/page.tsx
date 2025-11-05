@@ -25,6 +25,7 @@ export default function Muyodoc() {
             <p className="hover:text-gray-500"><Link href="muyodoc/solazul">- PORTEÑOS MIRAN AL SOL AZUL.</Link></p>
             <p className="hover:text-gray-500"><Link href="muyodoc/bellavita">- La Bella Vita</Link></p>
             <p className="hover:text-gray-500"><Link href="muyodoc/thoughts_mist">- Thoughts in the Mist</Link></p>
+            <p className="hover:text-gray-500"><Link href="muyodoc/carrier">- the Carrier(Hakobu Hito)</Link></p>
             </div>
         </div>
 }
