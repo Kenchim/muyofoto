@@ -54,7 +54,7 @@ export default function Page() {
       <>
       <div className="flex items-center justify-center min-h-screen px-4 max-w-7xl">
       <div className="flex flex-col items-center text-center px-4 py-8 md:w-2/3 w-full">
-      <h1 className="text-xl md:text-2xl font-light xl:mb-4 mb-0 font-serif tracking-widest pt-28 mv:pt-0">Thank you for coming to AABF!<a className="md:ml-2 xl:ml-4 tracking-widest"></a></h1>
+      <h1 className="text-xl md:text-2xl font-light xl:mb-4 mb-0 font-serif tracking-widest pt-28 mv:pt-0">A huge thank you to everyone who visited AABF!<a className="md:ml-2 xl:ml-4 tracking-widest"></a></h1>
       <p className="text-xs xl:text-base mb-2 font-serif tracking-widest m-auto">AICHI ART BOOK FAIR 2025</p>
       <div className="w-full max-w-3xl mt-6 mb-8 z-[-2]">
         <img
