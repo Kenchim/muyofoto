@@ -54,29 +54,29 @@ export default function Page() {
       <>
       <div className="flex items-center justify-center min-h-screen px-4 max-w-7xl">
       <div className="flex flex-col items-center text-center px-4 py-8 md:w-2/3 w-full">
-      <h1 className="text-xl md:text-2xl font-light xl:mb-4 mb-0 font-serif tracking-widest pt-28 mv:pt-0">A huge thank you to everyone who visited AABF!<a className="md:ml-2 xl:ml-4 tracking-widest"></a></h1>
-      <p className="text-xs xl:text-base mb-2 font-serif tracking-widest m-auto">AICHI ART BOOK FAIR 2025</p>
+      <h1 className="text-xl md:text-2xl font-light xl:mb-4 mb-0 font-serif tracking-widest pt-28 mv:pt-0">Excited to join the Zine Fair!<a className="md:ml-2 xl:ml-4 tracking-widest"></a></h1>
+      <p className="text-xs xl:text-base mb-2 font-serif tracking-widest m-auto">KYOTOGRAPHIE PHOTOBOOK FAIR 2026</p>
       <div className="w-full max-w-3xl mt-6 mb-8 z-[-2]">
         <img
-          src="../aabf2025.png" // 実際の画像パスに変更してください
+          src="../kpf2026.png" // 実際の画像パスに変更してください
           alt=""
           className="w-full object-cover mv:block hidden"
         />
         <img
-          src="../aabf2025.png" // 実際の画像パスに変更してください
+          src="../kpf2026.png" // 実際の画像パスに変更してください
           alt="運ぶ人"
           className="w-full object-cover mv:hidden"
         />
       </div>
       <p className="text-xs xl:text-base mb-2 font-serif tracking-widest ml-auto text-right">
-      11.26 Wed. – 12.2 Tue., 2025<br />
-      10:00 – 20:00<br />
-      @NAGOYA MATSUZAKAYA, Organ Plaza, South Building 1F<br />
+      05.09 Sat. – 05.10 Sun., 2026<br />
+      12:00 – 19:00<br />
+      @Kyoto, ROHM Theatre Kyoto<br />
       Admission Free
       </p>
       <div className="text-right mt-2 tracking-wide ml-auto">
-      <a href="https://aichiartbookfair.com/" className="text-xs xl:text-base underline hover:opacity-80 font-serif ">
-        https://aichiartbookfair.com/
+      <a href="https://www.instagram.com/p/DYBfH3IAaWC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" className="text-xs xl:text-base underline hover:opacity-80 font-serif ">
+        Instagram Link
       </a>
       </div>
     </div>
