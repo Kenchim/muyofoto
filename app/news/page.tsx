@@ -10,7 +10,7 @@ export default function News() {
             <FotoCap
             url="../kpf2026.png"
             alt="KYOTOGRAPHIE PHOTOBOOK FAIR 2026"
-            caption='I exhibited my work at the KYOTOGRAPHIE PHOTOBOOK FAIR 2026. The event brought together distributors 
+            caption='Exhibited the ZINE, "運ぶ人 hakobuhito" at the KYOTOGRAPHIE PHOTOBOOK FAIR 2026. The event brought together distributors 
             from across Asia and around the world, attracting a large and lively crowd.' 
             />
             <p className="pb-20"></p>
