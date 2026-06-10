@@ -11,8 +11,7 @@ export default function News() {
             url="../kpf2026.png"
             alt="KYOTOGRAPHIE PHOTOBOOK FAIR 2026"
             caption='I exhibited my work at the KYOTOGRAPHIE PHOTOBOOK FAIR 2026. The event brought together distributors 
-            from across Asia and around the world, attracting a large and lively crowd. Among many distinctive and compelling 
-            works, my own photobook was also presented.' 
+            from across Asia and around the world, attracting a large and lively crowd.' 
             />
             <p className="pb-20"></p>
             </div>
