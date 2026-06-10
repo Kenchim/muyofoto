@@ -5,7 +5,18 @@ export default function News() {
     return (
     <div className="text-center w-5/6 md:w-3/4 lg:w-1/2 mx-auto tracking-wider max-w-[720px]">
             <h1 className="font-bold mt-32 text-xl md:text-2xl">NEWS</h1>
-            
+            <div className="leading-8 mt-4 md:mt-8">
+            <p>--- May 9th - 10th, 2026 ---</p>
+            <FotoCap
+            url="../kpf2026.png"
+            alt="KYOTOGRAPHIE PHOTOBOOK FAIR 2026"
+            caption='I exhibited my work at the KYOTOGRAPHIE PHOTOBOOK FAIR 2026. The event brought together distributors 
+            from across Asia and around the world, attracting a large and lively crowd. Among many distinctive and compelling 
+            works, my own photobook was also presented.' 
+            />
+            <p className="pb-20"></p>
+            </div>
+
             <div className="leading-8 mt-4 md:mt-8">
             <p>--- July 8th - 27th, 2025 ---</p>
             <FotoCap
