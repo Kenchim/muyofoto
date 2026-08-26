@@ -73,6 +73,11 @@ export default function Page() {
       @C7C Gallery<br />
       Admission Free
       </p>
+      <div className="text-right mt-2 tracking-wide ml-auto">
+      <a href="https://c7c.jp/zine-fan-2026/" className="text-xs xl:text-base underline hover:opacity-80 font-serif ">
+        WEB Page
+      </a>
+      </div>
     </div>
     </div>
     {/* <div className="hidden mv:block max-w-[1440px] w-full max-h-screen h-full relative py-32 md:py-10 px-0 md:px-4 z-[-2]">
