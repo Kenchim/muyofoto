@@ -54,31 +54,25 @@ export default function Page() {
       <>
       <div className="flex items-center justify-center min-h-screen px-4 max-w-7xl">
       <div className="flex flex-col items-center text-center px-4 py-8 md:w-2/3 w-full">
-      <h1 className="text-xl md:text-2xl font-light xl:mb-4 mb-0 font-serif tracking-widest pt-28 mv:pt-0">Thank you for the Zine Fair!<a className="md:ml-2 xl:ml-4 tracking-widest"></a></h1>
-      <p className="text-xs xl:text-base mb-2 font-serif tracking-widest m-auto">KYOTOGRAPHIE PHOTOBOOK FAIR 2026</p>
+      <h1 className="text-xl md:text-2xl font-light xl:mb-4 mb-0 font-serif tracking-widest pt-28 mv:pt-0">Excited to join the Fair!<a className="md:ml-2 xl:ml-4 tracking-widest"></a></h1>
+      <p className="text-xs xl:text-base mb-2 font-serif tracking-widest m-auto">ZINE FAN TOKAI 2026</p>
       <div className="w-full max-w-3xl mt-6 mb-8 z-[-2]">
         <img
-          src="../kpf2026.png" // 実際の画像パスに変更してください
-          alt=""
+          src="../zinefan2026.png" // 実際の画像パスに変更してください
+          alt="zine fun tokai"
           className="w-full object-cover mv:block hidden"
         />
         <img
-          src="../kpf2026.png" // 実際の画像パスに変更してください
-          alt="運ぶ人"
+          src="../zinefan2026.png" // 実際の画像パスに変更してください
+          alt="zine fun tokai"
           className="w-full object-cover mv:hidden"
         />
       </div>
       <p className="text-xs xl:text-base mb-2 font-serif tracking-widest ml-auto text-right">
-      05.09 Sat. – 05.10 Sun., 2026<br />
-      12:00 – 19:00<br />
-      @Kyoto, ROHM Theatre Kyoto<br />
+      09.18 Fri. – 09.27 Sun., 2026<br />
+      @C7C Gallery<br />
       Admission Free
       </p>
-      <div className="text-right mt-2 tracking-wide ml-auto">
-      <a href="https://www.instagram.com/p/DYBfH3IAaWC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" className="text-xs xl:text-base underline hover:opacity-80 font-serif ">
-        Instagram Link
-      </a>
-      </div>
     </div>
     </div>
     {/* <div className="hidden mv:block max-w-[1440px] w-full max-h-screen h-full relative py-32 md:py-10 px-0 md:px-4 z-[-2]">
